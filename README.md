@@ -11,15 +11,15 @@ Contact Form
 
 olzul attaches to a form and uses a provided template to append list items to a ol/ul. Within each listed item will be the attached form fields (`type=hidden`) for submission via a main form.
 
-### Options
+## Options
 
-#### Required
+### Required
 
 template: `string` - The template to be parsed. _see the example/index.html for a sample template_
 
 list: `jQuery` - The ol or ul item to use
 
-#### Optional
+### Optional
 
 parser: `function` - Parses the template to replace variables with values
 
@@ -27,7 +27,7 @@ select.inputs: `string` - The selector to use to grab the form elements. Default
 
 select.remove: `string` - The selector to watch for to remove a list item. Default `.remove`
 
-#### Callbacks 
+### Callbacks 
 
 callback.val: `function` - Called to grab the input value. Default returns the input value.
 
@@ -39,7 +39,7 @@ callback.liAdded: `function` - Called every parsed item insert. Default resets t
 
 callback.valid: `function` - Called before adding the item to the list
 
-##### Wishlist
+## Wishlist
 
 * ability to use tables as well as lists
 * ability to edit an inserted item
