@@ -46,25 +46,25 @@
     <legend>Who Are You</legend>
       <div class="row">
         <label for="contact_name">Name</label>
-        <input id="contact_name" name="contact[name]" value="" />
+        <input id="contact_name" name="contact[name]" value="" tabindex=1 />
       </div>
       <div class="row">
         <em>Contact Methods</em>
         <ol></ol>
       </div>
       <div class="row action-buttons">
-        <button type="submit">Save</button>
+        <button type="submit" tabindex=4 >Save</button>
       </div>
     </fieldset>
   </form>
 
   <form id="methods" action="" method="post">
-    <select name="contact[method][type_id][]">
+    <select name="contact[method][type_id][]" tabindex=2>
       <option value="1">Email</option>
       <option value="2">Tele</option>
       <option value="3">Twitter</option>
     </select>
-    <input name="contact[method][value][]" type="text" value="" />
+    <input name="contact[method][value][]" type="text" value="" tabindex=3 />
     <button type="submit">Add</button>
   </form>
 </body>
